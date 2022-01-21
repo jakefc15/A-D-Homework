@@ -1,0 +1,10 @@
+fo=open("test.txt"),("w")
+fo.write("Jake")
+fo.write("\n")
+fo.write(" Gilbert")
+fo.close()
+
+fo=open("test.txt","r")
+str=fo.read(20)
+print(str)
+fo.close()
